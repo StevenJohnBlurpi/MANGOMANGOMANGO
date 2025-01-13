@@ -1,5 +1,5 @@
-with open("Death.txt", "r", encoding = "utf-8") as Ψ:
-    read_text_english = Ψ.read()
+with open("Death.txt", "r", encoding = "utf-8") as English_Text:
+    read_text_english = English_Text.read()
     
 with open("Death Latvian.txt", "r", encoding = "utf-8") as Latvian_Text:
     read_text_latvian = Latvian_Text.read()
@@ -10,4 +10,9 @@ with open("Death Polish.txt", "r", encoding = "utf-8") as Polish_Text:
 with open("Death Chinese.txt", "r", encoding = "utf-8") as Chinese_Text:
     read_text_chinese = Chinese_Text.read()
 
+
+read_text_english = read_text_english.replace(" ","Balls")
+
+
+read_text_english = read_text_english.split(" ")
 print(read_text_english)
