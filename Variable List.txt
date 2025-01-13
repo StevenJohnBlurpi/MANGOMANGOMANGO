@@ -1,0 +1,9 @@
+Death_English_Text
+Death_Latvian_Text
+Death_Polish_Text
+Death_Chinese_Text
+
+death_read_text_chinese
+death_read_text_polish
+death_read_text_latvian
+death_read_text_english
