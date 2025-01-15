@@ -13,6 +13,32 @@ with open("Death Chinese.txt", "r", encoding = "utf-8") as Death_Chinese_Text:
 with open("kjv.txt", "r", encoding = "utf-8") as KJV_Text:
     kjv_read = KJV_Text.read()
 
+first_text = input("Which text would you like to compare with? Choices are: Death, KJV: English Only")
+
+if first_text == "Death":
+    first_text = "Death"
+elif first_text == "KJV":
+    first_text = "KJV"
+else:
+    print("Invalid Input")
+
+if first_text == "Death":
+    first_langauge = input("Which language would you like to compare with? Choices are: English, Latvian, Polish and Chinese. ")
+elif first_text =="KJV":
+    first_language = kjv_read
+else:
+    print("Invalid Input")
+    
+    
+    
+
+
+
+
+
+
+
+
 first_language = input("Which language would you like to compare with? Choices are: English, Latvian, Polish and Chinese. ")
 
 if first_language == "English":
@@ -23,15 +49,6 @@ elif first_language == "Polish":
     first_language = "Polish"
 elif first_language =="Chinese":
     first_language = "Chinese"
-else:
-    print("Invalid Input")
-
-first_text = input("Which text would you like to compare with? Choices are: Death, KJV")
-
-if first_text == "Death":
-    first_text = "Death"
-elif first_text == "KJV":
-    first_text = "KJV"
 else:
     print("Invalid Input")
 
